@@ -1,0 +1,31 @@
+.box-grid{
+    display: grid;
+    grid-template-columns: 0.6fr 3fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+
+}
+header{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    background-color: black;
+    border: solid 3px white;
+    border-radius: 6px;
+}
+h1{
+    color: white;
+}
+nav{
+    grid-column: 2/3;
+    grid-row:2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: black;
+    border: solid 3px white;
+    border-radius: 6px;
+}
+a{
+    color: white;
+}
